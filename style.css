@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;  /* Шрифт текста */
+    font-size: 18px;                 /* Размер основного текста */
+    background-color: #f8f8ff;       /* Цвет фона - светлый */
+    color: #333333;                  /* Цвет основного текста - тёмный */
+    max-width: 1000px;                /* Максимальная ширина контента */
+    margin: 0 0 0 100px;                  /* Выравнивание по центру */
+    padding: 20px;                   /* Отступы внутри body */
+}
+
+/* Стиль для заголовка h1 */
+h1 {
+    color: #cc3300;                  /* Красный цвет для заголовка */
+    font-size: 36px;                 /* Большой размер шрифта */
+    font-family: Georgia, serif;     /* Красивый шрифт для заголовка */
+    text-align: center;              /* Выравнивание по центру */
+    margin-bottom: 50px;             /* Отступ снизу */
+}
+
+/* Стиль для подзаголовков h2 */
+h2 {
+    color: #0066cc;                  /* Синий цвет для подзаголовков */
+      /* Оранжевая полоса слева */
+    padding-left: 15px;              /* Отступ текста от полосы */
+    margin-top: 30px;                /* Отступ сверху */
+}
+
+/* Стиль для обычных параграфов */
+p {
+    color: #444444;                  /* Тёмно-серый цвет текста */
+                    /* Отступы сверху и снизу */
+}
+
+/* Стиль для информации о пользователе */
+.user {
+    color: #6565ff;                  /* Синий цвет */
+    font-style: italic;              /* Курсивное начертание */
+    font-weight: bold;               /* Жирный шрифт */
+}
+
+
+/* Стиль для всех изображений */
+.my_img, .my_img1, .my_img2 {
+    width: 300px;                    /* Ширина картинок */
+    height: 300px;                   /* Высота картинок */
+    border: 2px solid #cccccc;       /* Серая рамка */
+    border-radius: 100px;              /* Закруглённые углы */
+}
+.character-img {
+    width: 220px;
+    height: 160px;
+    border: 2px solid #ff9900;
+    border-radius: 8px;
+    margin-left: 100px; /* Добавь эту строку - отступ слева */
+    vertical-align: top;
+}
+.top-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #aa96ff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.top-button:hover {
+    background-color: #996db6;
+}
